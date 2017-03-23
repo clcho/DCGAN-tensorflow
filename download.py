@@ -61,8 +61,10 @@ def download_celeb_a(dirpath):
   if os.path.exists(os.path.join(dirpath, data_dir)):
     print('Found Celeb-A - skip')
     return
-  url = 'https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADIKlz8PR9zr6Y20qbkunrba/Img/img_align_celeba.zip?dl=1&pv=1'
-  filepath = download(url, dirpath)
+  url = '/home/u1/test/img_align_celeba.zip'
+  # url = 'https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADIKlz8PR9zr6Y20qbkunrba/Img/img_align_celeba.zip?dl=1&pv=1'
+  filepath = "/home/u1/test/DCGAN-tensorflow/data/img_align_celeba.zip"
+  # filepath = download(url, dirpath)
   zip_dir = ''
   with zipfile.ZipFile(filepath) as zf:
     zip_dir = zf.namelist()[0]
