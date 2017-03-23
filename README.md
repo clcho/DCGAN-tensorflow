@@ -1,3 +1,6 @@
+# celebA의 download path 오류 문제 임시 해결 버전임.
+https://drive.google.com/drive/folders/0B7EVK8r0v71pTUZsaXdaSnZBZzg 에서 파일 다운 받아 /home/u1/test/폴더에 넣고 실행할 것. (/home/u1/test/img_align_celeba.zip)
+---------------------------------------
 # DCGAN in Tensorflow
 
 Tensorflow implementation of [Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434) which is a stabilize Generative Adversarial Networks. The referenced torch code can be found [here](https://github.com/soumith/dcgan.torch).
